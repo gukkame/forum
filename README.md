@@ -1,3 +1,14 @@
+# Forum
+
+Includes:
+* Registration and Login
+* User authentification, sessions and cookies
+* Adding posts and comments and saving into database using SQLite
+* Ability to like and dislike posts and comments
+
+Detailed project requirements are found here `https://01.kood.tech/git/root/public/src/branch/master/subjects/forum`
+
+
 ## How to run
 
 - Clone the repo
