@@ -1,5 +1,5 @@
 <script setup>
-import { getCookie, removeCookie } from "../../cookie";
+import { getCookie, removeCookie } from "../cookie";
 var cookie = getCookie();
 console.log("cookie!!! ", cookie);
 removeCookie(cookie[1]);

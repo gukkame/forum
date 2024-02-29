@@ -1,6 +1,6 @@
 <script setup>
-import { checkCookie } from "./cookie";
-import Chat from "./src/components/chat.vue";
+import { checkCookie } from "cookie";
+import Chat from "./components/chat.vue";
 let cookie = checkCookie();
 </script>
 

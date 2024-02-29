@@ -1,5 +1,5 @@
 <script setup>
-import { getCookie } from "../../cookie";
+import { getCookie } from "../cookie";
 let cookie = getCookie();
 </script>
 <template>
@@ -116,7 +116,7 @@ let cookie = getCookie();
 
 
 <script>
-import { getCookie, removeCookie } from "../../cookie";
+import { getCookie, removeCookie } from "../cookie";
 import _ from "lodash";
 import "vue-toast-notification/dist/theme-sugar.css";
 let cookie = getCookie();

@@ -1,5 +1,5 @@
 <script setup>
-import { checkCookie } from "../../cookie";
+import { checkCookie } from "../cookie";
 let c = checkCookie();
 </script>
 <template>
@@ -73,7 +73,7 @@ let c = checkCookie();
 </template>
 <script>
 import axios from "axios";
-import { getCookie } from "../../cookie";
+import { getCookie } from "../cookie";
 
 export default {
   name: "NewPost",

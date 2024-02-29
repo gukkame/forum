@@ -1,5 +1,5 @@
 <script setup>
-import { checkCookie } from "../../cookie";
+import { checkCookie } from "../cookie";
 import Posts from "../components/posts.vue";
 checkCookie();
 </script>

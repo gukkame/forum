@@ -95,7 +95,7 @@
 
 <script>
 import axios from "axios";
-import { dateToString } from "../../cookie";
+import { dateToString } from "../cookie";
 
 export default {
   name: "SignUp",

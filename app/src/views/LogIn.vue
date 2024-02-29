@@ -1,5 +1,5 @@
 <script setup>
-import { checkCookie } from "../../cookie";
+import { checkCookie } from "../cookie";
 let c = checkCookie();
 </script>
 
@@ -49,7 +49,6 @@ let c = checkCookie();
 
 <script>
 import axios from "axios";
-import { dateToString, checkCookie } from "../../cookie";
 
 export default {
   data() {
