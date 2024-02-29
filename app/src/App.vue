@@ -1,5 +1,5 @@
 <script setup>
-import { checkCookie } from "cookie";
+import { checkCookie } from "./cookie";
 import Chat from "./components/chat.vue";
 let cookie = checkCookie();
 </script>
